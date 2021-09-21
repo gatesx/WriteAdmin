@@ -2,11 +2,11 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 /**
- * WriterAdmin是写作者而改进的插件，插件小改部分样式自<a href="https://github.com/gogobody/WriteAdmin" forget="_blank">gogobady/WriteAdmin</a>。
+ * WriterAdmin是为写作者而改进的插件，插件小改部分样式自<a href="https://github.com/gogobody/SimpleAdmin" forget="_blank">gogobady/WriteAdmin</a>。
 
  * @package WriteAdmin
  * @author gatesx
- * @version 1.0.0
+ * @version 0.1
  * @link https://gatesx.cn
  */
 
@@ -92,7 +92,7 @@ class WriteAdmin_Plugin implements Typecho_Plugin_Interface
         $zz4 = '<div class="zz">海洋巨人</div>';
         $zz5 = '<div class="zz">绿意之方</div>';
         $zz6 = '<div class="zz">黑客帝国</div>';
-        $zz9 = '<div class="zz">空白样式</div>';
+        $zz7 = '<div class="zz">空白样式</div>';
 
         $bgfengge = new Typecho_Widget_Helper_Form_Element_Radio(
             'bgfengge', array(
@@ -102,7 +102,7 @@ class WriteAdmin_Plugin implements Typecho_Plugin_Interface
             'MarineGiant' => _t('<div class="kuai"><img src="' . $url . '/images/MarineGiant.jpg" loading="lazy" loading="lazy">' . $zz4 . '</div>'),
             'lv' => _t('<div class="kuai tags"><img src="' . $url . '/images/lv.jpg" loading="lazy">' . $zz5 . '</div>'),
             'heike' => _t('<div class="kuai tags"><img src="' . $url . '/images/heike.jpg" loading="lazy">' . $zz6 . '</div>'),
-            'kongbai' => _t('<div class="kuai"><img src="' . $url . '/images/kongbai.jpg" loading="lazy">' . $zz9 . '</div>'),
+            'kongbai' => _t('<div class="kuai"><img src="' . $url . '/images/kongbai.jpg" loading="lazy">' . $zz7 . '</div>'),
         ), 'suya', _t('登录页面样式'), _t(''));
         $bgfengge->setAttribute('id', 'yangshi');
         $form->addInput($bgfengge);
