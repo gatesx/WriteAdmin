@@ -6,3 +6,4 @@
 原作者的是以紫色作为黑暗模式的主颜色，在其基础上我修改为更加契合浏览器及系统的灰黑色(#2c2c2c)<br>
 ![dark](https://user-images.githubusercontent.com/84220224/134120940-742b2cfa-eb44-4f11-b753-4a2c77afa7d1.jpg)
 ### Codeing...
+由于初三学业繁重，所以下次真正更新可能需要等到国庆假期。
