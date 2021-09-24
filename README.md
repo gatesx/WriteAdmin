@@ -9,7 +9,7 @@
 
 并且原插件在观感上存在一定的问题，所以我也对很多的border进行修改。
 
-![dark](https://user-images.githubusercontent.com/84220224/134727881-b7b2edb8-80f8-4f51-8b30-3242a79e7182.png)
+![duck](https://user-images.githubusercontent.com/84220224/134728122-9c6b3f2a-ea61-481d-99cd-115fd1c3e08f.jpg)
 
 ### 更多特色Codeing...
 由于初三学业真的繁重，所以未来更新和维护的时间将极为不定时，我基本上每周都只放假一天，所以Code的时间其实并不多。
