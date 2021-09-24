@@ -1124,7 +1124,7 @@ body {
 }
 
 .form-control {
-  --input-padding: 0.5rem 0.75rem;
+  
   --input-color: var(--main);
   --input-bg: white;
   --input-border-color: rgba(0, 0, 0, 0.3);
@@ -1136,9 +1136,10 @@ body {
   margin: 0;
   color: var(--input-color);
   background: var(--input-bg);
-  border: 1px solid var(--input-border-color);
+  border: 0px solid var(--input-border-color);
   border-radius: var(--input-radius);
   transition: 0.3s;
+ 
 }
 
 .form-control::-webkit-input-placeholder {
@@ -12319,12 +12320,13 @@ ul.token-input-list,.token-input-list, input[type=text], input[type=password], i
   right: 0;
   left: 0;
   background-image: linear-gradient(180deg, rgba(0,0,0,0.05) 5%, rgba(0,0,0,0.3));
+  border-right:none
 }
 
 .main .mask{
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.65);
+  background: rgba(133, 111, 111, 0.65);
   backdrop-filter: blur(5px);
   opacity: 0;
   visibility: hidden;
@@ -12598,7 +12600,7 @@ td.form-check{
     height: 100%;
   }
   .typecho-page-main .col-tb-4 {
-    width: 100% !important
+    width: 100% !important;
   }
   .popup {
     width: 100% !important;

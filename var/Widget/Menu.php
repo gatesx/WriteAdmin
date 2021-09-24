@@ -139,7 +139,7 @@ class Widget_Menu extends Typecho_Widget
             array(array('Widget_Metas_Category_Edit', 'getMenuTitle'), array('Widget_Metas_Category_Edit', 'getMenuTitle'), 'category.php?parent=', 'editor', true),
             array(_t('网站标签'), _t('管理标签'), 'manage-tags.php', 'editor'),
             array(array('Widget_Metas_Tag_Admin', 'getMenuTitle'), array('Widget_Metas_Tag_Admin', 'getMenuTitle'), 'manage-tags.php?mid=', 'editor', true),
-            array(_t('附件'), _t('管理附件'), 'manage-medias.php', 'editor'),
+            array(_t('归档文件'), _t('管理文件'), 'manage-medias.php', 'editor'),
             array(array('Widget_Contents_Attachment_Edit', 'getMenuTitle'), array('Widget_Contents_Attachment_Edit', 'getMenuTitle'), 'media.php?cid=', 'contributor', true),
             array(_t('用户分配'), _t('管理用户'), 'manage-users.php', 'administrator', false, 'user.php'),
             array(_t('新增用户'), _t('新增用户'), 'user.php', 'administrator', true),

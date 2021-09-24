@@ -6,7 +6,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
  * @package WriteAdmin
  * @author gatesx
- * @version 0.1
+ * @version 0.2.0
  * @link https://gatesx.cn
  */
 
@@ -24,7 +24,7 @@ class WriteAdmin_Plugin implements Typecho_Plugin_Interface
     public static function activate()
     {
         if (version_compare( phpversion(), '7.0.0', '<' ) ) {
-            throw new Typecho_Plugin_Exception('本插件需要在PHP7环境下使用！');
+            throw new Typecho_Plugin_Exception('抱歉，本插件需要在PHP7.x下使用！');
         }
         Typecho_Plugin::factory('admin/header.php')->header_1011 = array('WriteAdmin_Plugin', 'renderHeader');
         Typecho_Plugin::factory('admin/footer.php')->end_1011 = array('WriteAdmin_Plugin', 'renderFooter');

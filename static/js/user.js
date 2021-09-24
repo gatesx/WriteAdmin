@@ -19,36 +19,7 @@ function getElementsClass(classnames) {
 
     return classobj;
 }
-class SimpleUtils {
-    constructor() {
-    }
-    static getVersion() {
-        return '1.1.9';
-    }
-    static update_detec() {
-        let container = document.getElementById('check-update');
-        if (!container) return;
-        let ajax = new XMLHttpRequest();
-        container.style.display = 'block';
-        ajax.open('get', '');
-        ajax.send();
-        ajax.onreadystatechange = function () {
-            if (ajax.readyState === 4 && ajax.status === 200) {
-                let obj = JSON.parse(ajax.responseText);
-                let newest = obj.tag_name;
-                if (newest > SimpleUtils.getVersion()) {
-                    container.innerHTML =
-                        '发现新主题版本：' + obj.name +
-                        '。下载地址：<a href="' + obj.zipball_url + '">点击下载</a>' +
-                        '<br>您目前的版本:' + String(SimpleUtils.getVersion()) + '。' +
-                        '<a target="_blank" href="' + obj.html_url + '">👉查看新版亮点</a>';
-                } else {
-                    container.innerHTML = '您目前的版本:' + String(SimpleUtils.getVersion()) + '。' + '您目前使用的是最新版主题。';
-                }
-            }
-        }
-    }
-}
+
 
 class Simple {
     constructor() {
@@ -109,7 +80,7 @@ class Simple {
         }
         let Mask = '<div class="mask"></div>';
         $("body div.main").prepend(Mask)
-        let UserInfo = "<div class=\"user-info\"><a href=\"" + AdminLink_ + "\"><img src=\"" + UserPic_ + "\" /></a><p>欢迎您，<a href=\"" + AdminLink_ + "\">" + UserName_ + "</a></p></div>";
+        let UserInfo = "<div class=\"user-info\"><a href=\"" + AdminLink_ + "\"><img src=\"" + UserPic_ + "\" /></a><p>写作愉快，<a href=\"" + AdminLink_ + "\">" + UserName_ + "</a></p></div>";
         let HtmlText = ""
         if (UserGroup_ === "administrator") {
             HtmlText = "<div class=\"user-nav\"><ul><li><a href=\"" + AdminLink_ + "/index.php\"><i class=\"zm zm-zu\"></i>主控制台</a></li><li><a href=\"" + AdminLink_ + "/write-post.php\"><i class=\"zm zm-bianji\"></i>撰写文章</a></li><li class=\"menu-li\"><a href=\"javascript:;\"><i class=\"zm zm-quanjushuxing\"></i>全局模块<i class=\"zm zm-sanJiaoBottom\"></i></a><ul class=\"menu-ul\">" + one + "</ul></li><li class=\"menu-li\"><a href=\"javascript:;\"><i class=\"zm zm-zhuomiankuaijiefangshi\"></i>快捷操作<i class=\"zm zm-sanJiaoBottom\"></i></a><ul class=\"menu-ul\">" + two + "</li></ul></li><li class=\"menu-li\"><a href=\"javascript:;\"><i class=\"zm zm-leibie\"></i>内容管理<i class=\"zm zm-sanJiaoBottom\"></i></a><ul class=\"menu-ul\">" + three + "</ul></li><li class=\"menu-li\"><a href=\"javascript:;\"><i class=\"zm zm-shezhi\"></i>网站设置<i class=\"zm zm-sanJiaoBottom\"></i></a><ul class=\"menu-ul\">" + four + "</ul><li>" + five + "</ul></div>";
