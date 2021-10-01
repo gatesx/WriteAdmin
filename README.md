@@ -12,7 +12,7 @@ WriterAdmin是一款为写作者而改进的Typecho后台美化插件。<br>
 5. 处理好黑暗模式与高亮模式之间的冲突
 6. 优化移动端体验
 7. 提高readme.md对使用者的作用（Half done) 
-8. 发布1.0.0 Beta/正式版
+8. 发布1.0.0 Beta/正式版<br>
 附加：尝试在Typecho1.2.0 Beta中测试（肯定会很多错误）
 
 ## About WriteAdmin
