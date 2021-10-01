@@ -21,8 +21,6 @@ WriterAdmin是一款为写作者而改进的Typecho后台美化插件。<br>
 对大量的设置border边框进行修改提高黑暗模式的舒适性。<br>
 （PS：目前黑暗模式与高亮模式存在一定的冲突，需要一定解决）
 
-![dark](https://user-images.githubusercontent.com/84220224/135680890-7e20d1a6-6ca1-4e68-b3a2-e5f52d77f183.jpg)
-
 ### 安全
 WriteAdmin以最大力量反正对您的系统造成损害，避免因WriteAdmin造成其它插件或主题出现错误。<br>
 （PS：尽管这样，也千万不要直接删除文件夹，否则可能带来未知的后果。）
@@ -35,3 +33,6 @@ WriteAdmin以最大力量反正对您的系统造成损害，避免因WriteAdmin
 
 ### 简洁的画面
 WriteAdmin做到删繁就简，让使用者回归创作初衷，体验创作的美好。
+
+## 后台预览
+![dark](https://user-images.githubusercontent.com/84220224/135680890-7e20d1a6-6ca1-4e68-b3a2-e5f52d77f183.jpg)
