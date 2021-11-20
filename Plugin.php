@@ -2,7 +2,7 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 /**
- * WriterAdmin是为写作者而改进的插件，插件小改部分样式自<a href="https://github.com/gogobody/SimpleAdmin" forget="_blank">gogobady/WriteAdmin</a>。
+ * WriterAdmin是从<a href="https://github.com/gogobody/SimpleAdmin" forget="_blank">gogobady/SimpleAdmin</a>改进而成的插件。
 
  * @package WriteAdmin
  * @author Gatesx
